@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <conio.h>
+void main()
  
-int main()
+
 {
    int n, reverse = 0;
  
@@ -16,5 +18,5 @@ int main()
  
    printf("Reverse of entered number is = %d\n", reverse);
  
-   return 0;
+getch();
 }
